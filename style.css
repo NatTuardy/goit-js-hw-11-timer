@@ -1,0 +1,40 @@
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    color: burlywood;
+    font-size: 48px;
+    background-color: burlywood;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Montserrat Italic"), local("Montserrat-Italic"),
+        url("../fonts/montserrat-v14-latin-italic.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/montserrat-v14-latin-italic.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.timer {
+    text-align: center;
+}
+
+.field {
+    display: inline-block;
+    width: 130px;
+    padding: 30px;
+    margin: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(129, 84, 143);
+
+}
+
+
+.label {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 28px;
+}
